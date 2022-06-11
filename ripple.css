@@ -7,6 +7,9 @@ body{
 }
 
 .ripple-button{
+    display: inline-grid;
+    place-items: center;
+    position: relative;
     appearance: none;
     cursor: pointer;
     font-size: 3rem;
@@ -23,6 +26,7 @@ body{
     position: absolute;
     width: 100%;
     aspect-ratio: 1 / 1;
+    border-radius: 50%;
     background: yellow;
     opacity: 0.5;
 }
